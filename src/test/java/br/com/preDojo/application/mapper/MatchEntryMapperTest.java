@@ -1,4 +1,4 @@
-package br.com.preDojo.application.mapper.match;
+package br.com.preDojo.application.mapper;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNull;
@@ -10,6 +10,7 @@ import java.util.Date;
 import org.junit.Before;
 import org.junit.Test;
 
+import br.com.preDojo.application.mapper.pattern.PatternEvaluator;
 import br.com.preDojo.domain.model.match.MatchEntry;
 import br.com.preDojo.domain.model.match.Type;
 import br.com.preDojo.domain.model.match.game.GameEntry;
@@ -23,7 +24,7 @@ public class MatchEntryMapperTest {
 	
 	@Before
 	public void setUp() {
-		mapper = new MatchEntryMapper();
+		mapper = new MatchEntryMapper(new PatternEvaluator());
 	}
 	
 	@Test
