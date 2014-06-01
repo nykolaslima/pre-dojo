@@ -2,17 +2,21 @@ package br.com.preDojo.domain.model.match;
 
 import java.util.Date;
 
-public abstract class MatchEntry {
+public class MatchEntryBuilder<T> {
 
-	public static Type[] GAME_TYPES = {Type.MATCH_START, Type.MATCH_END};
-	public static Type[] PLAYER_TYPES = {Type.PLAYER_KILL};
-	
 	private Date creationDate;
 	private Type type;
 	
-	public MatchEntry(Date creationDate, Type type) {
+	@SuppressWarnings("unchecked")
+	public T createdAt(Date creationDate) {
 		this.creationDate = creationDate;
+		return (T) this;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public T withType(Type type) {
 		this.type = type;
+		return (T) this;
 	}
 	
 	public Date getCreationDate() {
