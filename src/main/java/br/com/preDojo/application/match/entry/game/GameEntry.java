@@ -1,7 +1,7 @@
-package br.com.preDojo.domain.model.match.game;
+package br.com.preDojo.application.match.entry.game;
 
-import br.com.preDojo.domain.model.match.MatchEntry;
-import br.com.preDojo.domain.model.match.MatchEntryBuilder;
+import br.com.preDojo.application.match.entry.MatchEntry;
+import br.com.preDojo.application.match.entry.MatchEntryBuilder;
 
 public class GameEntry extends MatchEntry {
 

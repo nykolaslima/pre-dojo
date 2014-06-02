@@ -1,6 +1,6 @@
-package br.com.preDojo.application.mapper.pattern.field;
+package br.com.preDojo.application.match.mapper.pattern.field;
 
-import br.com.preDojo.application.mapper.pattern.MatchEntryFieldPattern;
+import br.com.preDojo.application.match.mapper.pattern.MatchEntryFieldPattern;
 
 public class WeaponPattern implements MatchEntryFieldPattern {
 

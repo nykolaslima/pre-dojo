@@ -1,4 +1,4 @@
-package br.com.preDojo.application.mapper.pattern;
+package br.com.preDojo.application.match.mapper.pattern;
 
 public interface MatchEntryFieldPattern {
 
