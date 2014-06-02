@@ -1,7 +1,10 @@
 package br.com.preDojo.application.match.entry.player;
 
+import java.util.Date;
+
 import br.com.preDojo.application.match.entry.MatchEntry;
 import br.com.preDojo.application.match.entry.MatchEntryBuilder;
+import br.com.preDojo.application.match.entry.Type;
 import br.com.preDojo.domain.model.match.Player;
 import br.com.preDojo.domain.model.match.Weapon;
 
@@ -12,6 +15,11 @@ public class PlayerEntry extends MatchEntry {
 	private Player killer;
 	private Player killed;
 	private Weapon weapon;
+	
+	// hack to Fixture-Factory work
+	private PlayerEntry(Date creationDate, Type type) {
+		super(creationDate, type);
+	}
 	
 	private PlayerEntry(Builder builder) {
 		super(builder.getCreationDate(), builder.getType());

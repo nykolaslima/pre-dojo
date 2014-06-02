@@ -1,8 +1,26 @@
 package br.com.preDojo.domain.model.match;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Player {
 
 	private String name;
+	private List<Kill> kills;
+
+	public void addKill(Kill kill) {
+		if(kills == null) {
+			kills = new ArrayList<Kill>();
+		}
+		
+		kills.add(kill);
+	}
+	
+	public int getKillsCount() {
+		if(kills == null) return 0;
+		
+		return kills.size();
+	}
 	
 	public Player(String name) {
 		this.name = name;
