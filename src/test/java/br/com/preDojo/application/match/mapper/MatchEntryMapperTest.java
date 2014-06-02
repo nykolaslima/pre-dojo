@@ -16,8 +16,8 @@ import br.com.preDojo.application.match.entry.game.GameEntry;
 import br.com.preDojo.application.match.entry.player.PlayerEntry;
 import br.com.preDojo.application.match.mapper.MatchEntryMapper;
 import br.com.preDojo.application.match.mapper.pattern.PatternEvaluator;
-import br.com.preDojo.domain.model.match.player.Player;
-import br.com.preDojo.domain.model.match.player.Weapon;
+import br.com.preDojo.domain.model.match.Player;
+import br.com.preDojo.domain.model.match.Weapon;
 
 public class MatchEntryMapperTest {
 

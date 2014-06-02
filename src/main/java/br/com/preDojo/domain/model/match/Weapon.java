@@ -1,13 +1,13 @@
-package br.com.preDojo.domain.model.match.player;
+package br.com.preDojo.domain.model.match;
 
-public class Player {
+public class Weapon {
 
 	private String name;
 	
-	public Player(String name) {
+	public Weapon(String name) {
 		this.name = name;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
@@ -28,7 +28,7 @@ public class Player {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Player other = (Player) obj;
+		Weapon other = (Weapon) obj;
 		if (name == null) {
 			if (other.name != null)
 				return false;
