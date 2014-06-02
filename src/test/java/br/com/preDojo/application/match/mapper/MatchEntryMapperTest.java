@@ -1,4 +1,4 @@
-package br.com.preDojo.application.mapper;
+package br.com.preDojo.application.match.mapper;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNull;
