@@ -2,8 +2,6 @@ package br.com.preDojo.application.match.entry;
 
 import java.util.Date;
 
-import br.com.preDojo.domain.model.match.Type;
-
 public class MatchEntryBuilder<T> {
 
 	private Date creationDate;

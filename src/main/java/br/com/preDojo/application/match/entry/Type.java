@@ -1,4 +1,4 @@
-package br.com.preDojo.domain.model.match;
+package br.com.preDojo.application.match.entry;
 
 public enum Type {
 

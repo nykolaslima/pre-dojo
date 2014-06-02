@@ -2,8 +2,6 @@ package br.com.preDojo.application.match.entry;
 
 import java.util.Date;
 
-import br.com.preDojo.domain.model.match.Type;
-
 public abstract class MatchEntry {
 
 	public static Type[] GAME_TYPES = {Type.MATCH_START, Type.MATCH_END};

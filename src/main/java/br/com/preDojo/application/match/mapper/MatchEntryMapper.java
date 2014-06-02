@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.Date;
 
 import br.com.preDojo.application.match.entry.MatchEntry;
+import br.com.preDojo.application.match.entry.Type;
 import br.com.preDojo.application.match.entry.game.GameEntry;
 import br.com.preDojo.application.match.entry.player.PlayerEntry;
 import br.com.preDojo.application.match.mapper.pattern.PatternEvaluator;
@@ -14,7 +15,6 @@ import br.com.preDojo.application.match.mapper.pattern.field.GameIdPattern;
 import br.com.preDojo.application.match.mapper.pattern.field.KilledPlayerPattern;
 import br.com.preDojo.application.match.mapper.pattern.field.KillerPattern;
 import br.com.preDojo.application.match.mapper.pattern.field.WeaponPattern;
-import br.com.preDojo.domain.model.match.Type;
 import br.com.preDojo.domain.model.match.player.Player;
 import br.com.preDojo.domain.model.match.player.Weapon;
 
